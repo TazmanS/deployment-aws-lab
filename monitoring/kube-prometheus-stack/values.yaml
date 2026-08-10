@@ -9,6 +9,7 @@ grafana:
 
 prometheus:
   prometheusSpec:
+    replicas: 1
     retention: 3d
 
     storageSpec:

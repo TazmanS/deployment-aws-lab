@@ -1,4 +1,8 @@
 # Overrides for kube-prometheus-stack
+crds:
+  upgradeJob:
+    enabled: true
+
 grafana:
   adminUser: admin
   adminPassword: admin

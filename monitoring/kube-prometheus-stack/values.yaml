@@ -16,6 +16,9 @@ prometheus:
     replicas: 1
     retention: 3d
 
+    externalUrl: "/prometheus"
+    routePrefix: "/prometheus"
+
     storageSpec:
       volumeClaimTemplate:
         spec:
